@@ -11,28 +11,127 @@
   "suscripciones": [
     {
       "id": 1,
-      "name": "Basico",
-      "price": 2500,
-      "description": [
+      "tipoServicio": "Basico",
+      "precio": 2500,
+      "descripcion": [
         "Limpieza Dental", "Examen Dental", "Blanqueamiento Dental"
       ]
     },
     {
       "id": 2,
-      "name": "Estandar",
-      "price": 5000,
-      "description": [
+      "tipoServicio": "Estandar",
+      "precio": 5000,
+      "descripcion": [
         "Limpieza Dental", "Examen Dental", "Blanqueamiento Dental", "Tratamiento de Caries", "Endodoncia"
       ]
     },
     {
       "id": 3,
-      "name": "Premium",
-      "price": 10000,
-      "description": [
+      "tipoServicio": "Premium",
+      "precio": 10000,
+      "descripcion": [
         "Limpieza Dental", "Examen Dental", "Blanqueamiento Dental", "Tratamiento de Caries", "Endodoncia", "Ortodoncia",
         "Implantes Dentales", "Cirugía Oral"
       ]
+    }
+  ],
+  "pacientes": [
+    {
+      "dni": "12345678",
+      "nombre": "Juan",
+      "apellido": "Gómez",
+      "celular": "3512345678",
+      "direccion": "Av. Colón 123",
+      "localidad": "Córdoba",
+      "mail": "juan.gomez@example.com"
+    },
+    {
+      "dni": "23456789",
+      "nombre": "María",
+      "apellido": "López",
+      "celular": "3513456789",
+      "direccion": "Rivadavia 456",
+      "localidad": "Córdoba",
+      "mail": "maria.lopez@example.com"
+    },
+    {
+      "dni": "34567890",
+      "nombre": "Carlos",
+      "apellido": "Rodríguez",
+      "celular": "3514567890",
+      "direccion": "San Martín 789",
+      "localidad": "Córdoba",
+      "mail": "carlos.rodriguez@example.com"
+    },
+    {
+      "dni": "45678901",
+      "nombre": "Laura",
+      "apellido": "Fernández",
+      "celular": "3515678901",
+      "direccion": "Belgrano 234",
+      "localidad": "Córdoba",
+      "mail": "laura.fernandez@example.com"
+    },
+    {
+      "dni": "56789012",
+      "nombre": "Diego",
+      "apellido": "Martínez",
+      "celular": "3516789012",
+      "direccion": "25 de Mayo 567",
+      "localidad": "Córdoba",
+      "mail": "diego.martinez@example.com"
+    }
+  ],
+  "dentistas": [
+    {
+      "dni": "12345678",
+      "matricula": "12345",
+      "nombre": "Martín",
+      "apellido": "González",
+      "celular": "3512345678",
+      "direccion": "Av. Colón 123",
+      "localidad": "Córdoba",
+      "mail": "martin.gonzalez@example.com"
+    },
+    {
+      "dni": "23456789",
+      "matricula": "23456",
+      "nombre": "Ana",
+      "apellido": "Rodríguez",
+      "celular": "3513456789",
+      "direccion": "Rivadavia 456",
+      "localidad": "Córdoba",
+      "mail": "ana.rodriguez@example.com"
+    },
+    {
+      "dni": "34567890",
+      "matricula": "34567",
+      "nombre": "Lucía",
+      "apellido": "Fernández",
+      "celular": "3514567890",
+      "direccion": "San Martín 789",
+      "localidad": "Córdoba",
+      "mail": "lucia.fernandez@example.com"
+    },
+    {
+      "dni": "45678901",
+      "matricula": "45678",
+      "nombre": "Diego",
+      "apellido": "López",
+      "celular": "3515678901",
+      "direccion": "Belgrano 234",
+      "localidad": "Córdoba",
+      "mail": "diego.lopez@example.com"
+    },
+    {
+      "dni": "56789012",
+      "matricula": "56789",
+      "nombre": "Carolina",
+      "apellido": "Martínez",
+      "celular": "3516789012",
+      "direccion": "25 de Mayo 567",
+      "localidad": "Córdoba",
+      "mail": "carolina.martinez@example.com"
     }
   ]
 }
