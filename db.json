@@ -7,5 +7,32 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "suscripciones": [
+    {
+      "id": 1,
+      "name": "Basico",
+      "price": 2500,
+      "description": [
+        "Limpieza Dental", "Examen Dental", "Blanqueamiento Dental"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Estandar",
+      "price": 5000,
+      "description": [
+        "Limpieza Dental", "Examen Dental", "Blanqueamiento Dental", "Tratamiento de Caries", "Endodoncia"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Premium",
+      "price": 10000,
+      "description": [
+        "Limpieza Dental", "Examen Dental", "Blanqueamiento Dental", "Tratamiento de Caries", "Endodoncia", "Ortodoncia",
+        "Implantes Dentales", "Cirugía Oral"
+      ]
+    }
+  ]
 }
